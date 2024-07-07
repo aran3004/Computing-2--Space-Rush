@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header role="banner" class="sr-only">
+        <h1>Space Rush</h1>
+    </header>
+    <main role="main">
+        <img src="/How to play.png" alt="How to Play" class="hidden" id="controls">
+        <canvas id="leaderboard" aria-label="Game Screen" role="img" class="hidden" aria-hidden="true"></canvas>
+        <canvas id="start screen" class="start_screen_visible" aria-label="Start Screen" role="img" aria-hidden="true"></canvas>
+        <canvas id="canvas" aria-label="Game Screen" role="img" aria-hidden="true"></canvas>
+        <label>Enter Name<input type="text" placeholder="Name" id="name input" name="name input" aria-label="Enter name here"></label>
+        <button type="button" id="button">Submit</button>
+        <button type="button" id="home" class="hidden">Home</button>
+        <audio src="/sounds/337049__shinephoenixstormcrow__320655-rhodesmas-level-up-01.mp3" id="collect_fuel"></audio>
+        <audio src="/sounds/344276__nsstudios__laser3.wav" id="laser"></audio>
+        <audio src="/sounds/427603__michorvath__rifle-clip-empty.wav" id="empty_clip"></audio>
+        <audio src="/sounds/PM_FSSF2_WEAPONS_J4_FOLEY_RELOAD_PICKUP_HANDLING_326.mp3" id="reloaded"></audio>
+        <audio src="/sounds/458867__raclure__damage-sound-effect.mp3" id="damage"></audio>
+        <audio src="/sounds/zapsplat_multimedia_game_lose_negative_001.mp3" id="endGameClip"></audio>
+        <script src="main.js" type="module"></script>
+    </main>
+</body>
+
+</html>

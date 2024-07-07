@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+  }
+
+label{
+    height: 10px;
+    width: 20px;
+}
+
+.visible{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.start_screen_visible{
+    position:relative;
+    width:100%;
+    height:100%;
+    background: radial-gradient(#012a75, #000327);
+}
+
+input[type=text] {
+    position: absolute;
+    left:35%;
+    top: 25%;
+    width:20%;
+  }
+
+button{
+    position: absolute;
+    left:60%;
+    top:25%;
+    width:5%;
+  }
+
+#home{
+    position: absolute;
+    left:95%;
+    top:3%;
+    width:4%;
+  }
